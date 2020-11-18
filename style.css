@@ -1,0 +1,36 @@
+html{
+    background-image: url(https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: rgba(71, 71, 71, 0.575);;
+    margin-left:2%;
+    margin-right:2%;
+    padding:1px;
+    display: relative;
+}
+h1{
+    color:White;
+    float:right;
+    margin-right:10%;
+    font-family: monospace;
+
+}
+
+h2{
+    display: inline-block;
+}
+
+
+a:link, a:visited{
+  background-color:  rgb(48, 47, 47,0.575);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active{
+    background-color: rgb(128, 128, 128,0.575);
+}
