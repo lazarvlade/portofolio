@@ -2,26 +2,39 @@ html{
     background-image: url(https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
-.header{
-    background-color: rgba(71, 71, 71, 0.575);;
-    margin-left:2%;
-    margin-right:2%;
-    padding:1px;
-    display: relative;
-}
-h1{
-    color:White;
-    float:right;
-    margin-right:10%;
-    font-family: monospace;
 
+h1{
+    color:rgb(0, 0, 0);
+    font-family: Tahoma;
+    font-size: 40px;
+    display:inline;
+    margin-right: 35%;
 }
 
 h2{
-    display: inline-block;
+    display:inline;
+    float:left;
 }
 
+h3{
+    color: white;
+    font-size: 40px;
+    font-family: 'BioRhyme';
+}
+
+h4{
+    color: rgb(230, 145, 89); 
+    font-size: 20px;
+    font-family: monospace;
+}
+
+li{
+    color: rgb(95, 93, 93);
+    list-style-type: square;
+    font-size: 30px;
+}
 
 a:link, a:visited{
   background-color:  rgb(48, 47, 47,0.575);
@@ -30,7 +43,157 @@ a:link, a:visited{
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: monospace;
+  font-size:35px;
+  border-radius: 100px;
+  margin: 15px;
 }
 a:hover, a:active{
-    background-color: rgb(128, 128, 128,0.575);
+    background-color: rgba(71, 71, 71, 0.575);
+}
+
+.header{
+    background-color: rgba(71, 71, 71, 0.575);
+    margin-left:8%;
+    margin-right:8%;
+    padding:1px;
+    display: flex; 
+    justify-content: flex-end;
+    border-radius:5px;
+    
+}
+
+.acasa{
+    background-color: rgba(31, 30, 30, 0.787);
+    margin:1%;
+    margin-left:8%;
+    margin-right:8%;
+    padding:50px;
+    border-radius:5px;
+}
+
+.spatier{
+    display:block;
+    width:10%;
+    float:left;
+    height:100px;
+    position:relative
+}
+
+.skill{
+    margin:auto;
+    width:50%;
+}
+
+a:hover.skill{
+    width:70%;
+    background-color:White;
+    padding:0px;
+}
+
+.contact{
+    background-color: black;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10.355%;
+    margin-bottom:18%;
+}
+
+.patrat{
+    width: 100%;;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:none;
+    text-align: center;
+    transition:2s;
+    font-family: 'Capriola';
+    height: 750px;
+    padding-bottom: 100px;
+}
+
+.patrat input{
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 14px 10px;
+    width: 200px;
+    outline:none;
+    border-radius: 5px;
+    transition: 0.2s;
+    color:White;
+}
+
+.patrat select{
+    border:0;
+    background:none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 14px 10px;
+    width: 110px;
+    outline:none;
+    transition: 0.2s;
+    color:White;
+}
+
+
+.patrat select:hover{
+    color:black;
+    text-align: center;
+    background: none;
+}
+
+.patrat input:focus{
+    width:250px;
+    color:White;
+    border:5px solid rgb(46, 204, 113);
+}
+.patrat input[type="submit"]{
+    transition:0.25s;
+    border:5px solid rgb(46, 204, 113);
+    width: 125px;
+    border-radius:100px;
+}
+.patrat input[type="submit"]:hover{
+    background-color: rgb(46, 204, 113);
+    transition:0.25s;
+}
+
+.patrat h5{
+    color:white;
+    font-size: 38px;
+    margin:25px 0px 25px 0px;
+}
+
+label{
+    color:White;
+    font-size: 22px;
+}
+
+.Form{
+    height: 1000px;
+    width: 10px;
+}
+
+.contacteaza{
+    margin:auto;
+    width: 40%;
+}
+
+a.contacteaza{
+    background:none;
+    margin:0px;
+    padding:5px 0px 5px 0px;
+}
+a.contacteaza:hover{
+    background-color: rgb(58, 58, 58);
+    padding:5px 0px 5px 0px;
 }
