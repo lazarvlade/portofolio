@@ -1,20 +1,188 @@
 <!DOCTYPE html>
-<html style="margin: 0; height: 100%; overflow: hidden;background-color: white; background-image: none;">
+<html style="background-color: white; background-image: none;">
 
 <head>
     <title>Lazar Vlad</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icon.png" />
+    <link rel="shortcut icon" href="img/icon.png" />
     <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
 </head>
 
-<body>
-    <div class="header">
-        <h1 style="color:rgb(0, 0, 0)"><b>Portofolio</b></h1>
-        <div><a href="acasa.html">Acasa </a></div>
-        <div><a href="servicii.html">Servicii </a></div>
-        <div style="margin-right:8%;"><a href="contact.html"> Contact </a></div>
+<body style="margin:0px">
+    <div class="header" style="background: none;">
+        <h1 style="color:rgb(0, 0, 0)"><b><a href="acasa.html" class="portofolio">Portofolio</a></b></h1>
+        <div><a href="acasa.html" class="hs">Acasa </a></div>
+        <div><a href="servicii.html" class="hs">Servicii </a></div>
+        <div style="margin-right:8%;"><a href="contact.html" class="hs"> Contact </a></div>
     </div>
+    <div class="textservicii">
+        <h6>
+            > Multumita cunostintelor mele, am reusit sa creez mai multe proiecte personale, pe langa cele strict
+            profesionale, ce vor fi date exemple pentru serviciile pe care le ofer.
+            <br><br>
+            > Consider ca preturile sunt foarte avantajoase pentru clientii cu venituri mici si obiective realizabile.
+            <br><br>
+            > Pentru mai multe informatii ma puteti <a href="contact.html"
+                style="margin:0px;padding:0px;color:black;font-size: 20px;font-family: monospace;background:none;">contacta</a> intotdeauna!
+        </h6>
 
-    </body>
+    </div>
+    <div class="block">
+        <div class="negrus">
+            <img src="img/cpp.png" class="imagine">
+        </div>
+        <div class="albd">
+            <h2> C++</h2>
+            <div class="textobj">
+                &nbsp;&nbsp; Experienta mea in limbajul C++, a inceput din timpul liceului, unde am mers la olimpiade
+                judetene si am inceput sa iau in serios partea de algoritmica, ce ma ajuta la crearea de aplicatii si
+                sisteme pentru biblioteci, banci si firme birocratice.
+            </div>
+        </div>
+    </div>
+    <div class="spatiu"></div>
+    <div class="block">
+        <div class="albd" style="float:left;">
+            <h2> Java & MySQL</h2>
+            <div class="textobj">
+                &nbsp;&nbsp; Experienta mea in limbajul Java, a inceput in urma dorintei mele de a experimenta
+                programarea orientata pe obiecte, considerand acesta ca fiind un limbaj foarte adecvat acestui subiect.
+                Aici a urmat si dorinta de a invata MySQL, lucruri de care sunt foarte multumit ca le stiu deoarece se
+                ajuta mult una pe alta in proiecte, iar astfel pot crea sisteme si aplicatii mai complexe.
+            </div>
+        </div>
+        <div class="negrus" style="float:right;">
+            <img src="img/java.png" class="imagine" style="float:right;padding-right:5.24%;display:inline">
+            <img src="img/sql.png" class="imagine" style="float:left;padding-left:5.24%;display:inline">
+        </div>
+    </div>
+    <div class="spatiu"></div>
+    <div class="block">
+        <div class="negrus">
+            <img src="img/web.png" class="imagine">
+        </div>
+        <div class="albd">
+            <h2> HTML | CSS | JS</h2>
+            <div class="textobj">
+                &nbsp;&nbsp; Fiind o persoana ajutatoare si prietenoasa, am dorit sa imi ajut prietenul pentru a crea
+                un website menit serivicului pe care acesta il ofera, iar asta plus alte proiecte incepatoare m-au
+                introdus in lumea web, un loc in care am invatat sa creez tot mai multe website-uri si aplicatii web
+                prin intermediul acestor 3 limbaje de programare, care cu un pic de inspiratie pot compune un loc de
+                relaxare, informare, studiere sau management pentru clientii mei.
+            </div>
+        </div>
+    </div>
+    <div class="spatiu"></div>
+    <div class="block">
+        <div class="albd" style="float:left;">
+            <h2> C# & Unity</h2>
+            <div class="textobj">
+                &nbsp;&nbsp; Mereu mi-am dorit ca jocurile pe care le jucam cand eram mic, sa functioneze asa cum voiam,
+                iar acest lucru a fost posibil ulterior cand am inceput sa modific diferite jocuri, acesta fiind un
+                inceput pentru o pasiune ce avea sa urmeze si in special dezvoltatul de jocuri. Pentru a avea un game
+                engine, am decis sa incep cu Unity, instrumentul care te ajuta foarte mult la inceput in pornirea pe
+                acest domeniu si totodata locul unde am invatat C# pentru a dezvolta scripturi, iar ulterior cu aceste
+                cunostinte, am dezolvatat si aplicatii bazate doar pe C#.
+            </div>
+        </div>
+        <div class="negrus" style="float:right;">
+            <img src="img/unity.png" class="imagine" style="float:right;padding-right:8.68%;display:inline">
+            <img src="img/cs.png" class="imagine" style="float:left;padding-left:8.68%;display:inline">
+        </div>
+    </div>
+    <div class="spatiu">
+        <button type="button" class="preturi">Preturi</button>
+        <div class="content">
+            <table>
+                <div>
+                    <tr>
+                        <th>C++</th>
+                        <th>Pret</th>
+                    </tr>
+                    <tr>
+                        <td>Crearea unei aplicatii</td>
+                        <td>1000 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Intretinere</td>
+                        <td>150 lei/ora</td>
+                    </tr>
+                    <tr>
+                        <td>Dezvoltare</td>
+                        <td>250 lei/ora</td>
+                    </tr>
+                </div>
+
+                <div>
+                    <tr>
+                        <th>Java applications</th>
+                        <th>Pret</th>
+                    </tr>
+                    <tr>
+                        <td>Crearea unei aplicatii</td>
+                        <td>1750 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Intretinere</td>
+                        <td>100 lei/ora</td>
+                    </tr>
+                    <tr>
+                        <td>Dezvoltare</td>
+                        <td>300 lei/ora</td>
+                    </tr>
+                </div>
+
+                <div>
+                    <tr>
+                        <th>Websites & Web applications</th>
+                        <th>Pret</th>
+                    </tr>
+                    <tr>
+                        <td>Crearea unui website sau aplicatii web</td>
+                        <td>2500 lei</td>
+                    </tr>
+                    <tr>
+                        <td>Intretinere</td>
+                        <td>100 lei/ora</td>
+                    </tr>
+                    <tr>
+                        <td>Dezvoltare</td>
+                        <td>150 lei/ora</td>
+                    </tr>
+                </div>
+
+                <div>
+                    <tr>
+                        <th>Unity games / C# games</th>
+                        <th>Pret</th>
+                    </tr>
+                    <tr>
+                        <td>Crearea unui joc</td>
+                        <td>300 lei/ora</td>
+                    </tr>
+                    <tr>
+                        <td>Intretinere</td>
+                        <td>500 lei/ora</td>
+                    </tr>
+                    <tr>
+                        <td>Dezvoltare</td>
+                        <td>200 lei/ora</td>
+                    </tr>
+                </div>
+            </table>
+            <pre>
+                *Ofertele si reducerile sunt personalizate
+                **Proiectul dumneavoastra legat la o baza de data se poate face gratuit
+                ***Pentru crearea unor aplicatii, plata se face prin acordarea unui avans
+            </pre>
+                <a href="contact.html"style="background-color:black; margin-left:40%;margin-bottom:5%">CONTACT</a>
+
+          
+        </div>
+    </div>
+</body>
+<script src="preturi.js"></script>
+
 </html>

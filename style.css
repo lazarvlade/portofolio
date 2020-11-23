@@ -13,11 +13,6 @@ h1{
     margin-right: 35%;
 }
 
-h2{
-    display:inline;
-    float:left;
-}
-
 h3{
     color: white;
     font-size: 40px;
@@ -61,6 +56,17 @@ a:hover, a:active{
     justify-content: flex-end;
     border-radius:5px;
     
+}
+
+a.hs{
+    color:black;
+    background: none;
+    transition:0.75s;
+}
+a:hover.hs{
+    transition:0.75s;
+    color:white;
+    background-color: black;
 }
 
 .acasa{
@@ -138,7 +144,7 @@ a:hover.skill{
     text-align: center;
     border: 3px solid rgb(255, 255, 255);
     padding: 14px 10px;
-    width: 110px;
+    width: 115px;
     outline:none;
     transition: 0.2s;
     color:White;
@@ -185,15 +191,129 @@ label{
 
 .contacteaza{
     margin:auto;
-    width: 40%;
+    width: 32.83px;
+    height: 32.83px;
 }
 
 a.contacteaza{
     background:none;
+    max-width: 100%;
+    max-height: 100%;
     margin:0px;
-    padding:5px 0px 5px 0px;
+    display: inline; 
+    padding-bottom:10px;
 }
 a.contacteaza:hover{
-    background-color: rgb(58, 58, 58);
-    padding:5px 0px 5px 0px;
+    background-color: rgb(72, 71, 71);
 }
+
+
+.textservicii{
+    padding: 2% 3% 2% 5%;
+}
+h6{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+h2{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Cousine';
+    margin:0px;
+}
+
+.textobj{
+    font-family: 'Neucha';
+    font-size:25px;
+    padding:5px;
+}
+
+
+.imagine{
+
+    max-width: 100%;
+    max-height: 100%;
+    display:block;
+    margin:auto;
+}
+
+.spatiu{
+    width:100%;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+}
+
+.negrus{
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 50%;
+    float:left;
+    display:inline;
+}
+.albd{
+    background-color: white;
+    height: 250px;
+    float:right;
+    width: 50%;
+    display:inline;
+}
+
+a.portofolio{
+    background:none;
+    color:black;
+    display:inline;;
+}
+
+.preturi {
+	background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+
+  }
+  
+.active,.preturi:hover {
+	background-color: rgb(56, 56, 56);
+  }
+  
+  .content:after {
+	padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  }
+
+button{
+    text-align: center;
+    font-size:55px; 
+    font-family: monospace; 
+    width: 50%;
+    margin-left:20%;
+    margin-top:5%;
+}
+.content{
+    width: 60%;
+    margin-left:20%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align:center;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+th {
+    background-color: #d3d3d3;
+    text-align: center;
+  }
